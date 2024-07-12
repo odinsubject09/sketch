@@ -1,0 +1,17 @@
+div.grid{
+    margin: 150px;
+    width: 960px;
+    height: 960px;
+}
+div.container{
+    display: flex;
+}
+div.item{
+    
+    background-color:white;
+    
+    border: 2px solid black;
+}
+div.game{
+    
+}
