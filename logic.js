@@ -1,9 +1,13 @@
+let size=16;
+document.addEventListener("DOMContentLoaded",createGrid);
 const input=document.querySelector("input");
 const button=document.querySelector("button");
-button.addEventListener("click",createGrid);
+button.addEventListener("click",()=>{
+    size=input.value;
+    createGrid();
+});
 function createGrid()
 {
-    const size=parseInt(input.value);
     grid=document.querySelector("div.grid");
     grid.innerHTML='';
     
